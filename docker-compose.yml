@@ -15,6 +15,5 @@ services:
 
   backend:
     build:
-      context: ./routes
     networks:
       - dev
